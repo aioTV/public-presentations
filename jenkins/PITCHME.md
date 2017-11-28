@@ -148,7 +148,7 @@ example.doWork('please!')
 
 ### How We Build
 
-* Each module we build contains a groovy file with the required steps
+* Each module we build contains a groovy file with the required build steps
 * We run a script that performs a `git diff` against master to determine what modules we should include
 * We load the groovy script for each of the included modules
 * Run each build function
